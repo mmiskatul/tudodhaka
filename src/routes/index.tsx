@@ -22,11 +22,11 @@ export const Route = createFileRoute("/")({
         content:
           "Timeless East & South-East Asian classics in a peaceful Banani garden. Reserve a table at Tụ'do, Dhaka.",
       },
-      { property: "og:title", content: "Tu'do Restaurant — Pan-Asian Dining in Dhaka" },
+      { property: "og:title", content: "Tu'do Restaurant — Pan-Asian Dining in Banani, Dhaka" },
       {
         property: "og:description",
         content:
-          "Where food, art and nature meet. Pan-Asian restaurant and café in Banani, Dhaka.",
+          "Timeless East & South-East Asian classics in a peaceful Banani garden. Reserve a table at Tụ'do, Dhaka.",
       },
       { property: "og:url", content: "/" },
     ],

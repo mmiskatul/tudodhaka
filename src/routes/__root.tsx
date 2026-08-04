@@ -85,11 +85,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Tụ'do is a pan-Asian restaurant and café in Banani, Dhaka — timeless East & South-East Asian classics in a garden sanctuary.",
+          "Timeless East & South-East Asian classics in a peaceful Banani garden. Reserve a table at Tụ'do, Dhaka.",
       },
       { property: "og:site_name", content: "Tu'do Restaurant" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Tu'do Restaurant — Pan-Asian Dining in Banani, Dhaka" },
+      { name: "twitter:title", content: "Tu'do Restaurant — Pan-Asian Dining in Banani, Dhaka" },
+      { property: "og:description", content: "Timeless East & South-East Asian classics in a peaceful Banani garden. Reserve a table at Tụ'do, Dhaka." },
+      { name: "twitter:description", content: "Timeless East & South-East Asian classics in a peaceful Banani garden. Reserve a table at Tụ'do, Dhaka." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a859a4e0-693c-4a11-8ad7-9f0ce8cfb97c/id-preview-3cc24a43--cfd25150-17ce-4d4c-8a93-e34fe790c200.lovable.app-1785829919157.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a859a4e0-693c-4a11-8ad7-9f0ce8cfb97c/id-preview-3cc24a43--cfd25150-17ce-4d4c-8a93-e34fe790c200.lovable.app-1785829919157.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
